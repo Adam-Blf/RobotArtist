@@ -1,3 +1,10 @@
+![Dernier commit](https://img.shields.io/badge/Dernier%20commit-09/12/2025-brightgreen) ![Langage principal](https://img.shields.io/badge/Langage%20principal-N/A-blue) ![Nombre de langages](https://img.shields.io/badge/Nombre%20de%20langages-0-orange)
+
+### Construit avec les outils et technologies : 
+
+
+🇫🇷 Français | 🇬🇧 Anglais | 🇪🇸 Espagnol | 🇮🇹 Italien | 🇵🇹 Portugais | 🇷🇺 Russe | 🇩🇪 Allemand | 🇹🇷 Turc
+
 # Robot Artiste 🎨🤖
 
 Ce script transforme votre ordinateur en artiste ! Il prend une image, détecte ses contours et prend le contrôle de votre souris pour la dessiner automatiquement dans votre logiciel de dessin préféré (Affinity Designer, Paint, Photoshop, etc.).
