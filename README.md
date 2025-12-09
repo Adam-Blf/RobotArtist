@@ -3,6 +3,14 @@
 
 ![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
+## 📝 Description
+Projet de génération artistique par robot/IA.
+
+## ⚡ Fonctionnalités
+- Génération d'art
+- Contrôle robotique ou simulation
+
+
 ### Construit avec les outils et technologies : 
 
 ![Python](https://img.shields.io/badge/-Python-0080ff?style=flat)
