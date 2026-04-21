@@ -19,6 +19,12 @@ Projet de génération artistique par robot/IA.
 
 # Robot Artiste 🎨🤖
 
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-automation-4B8BBE)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+
 Ce script transforme votre ordinateur en artiste ! Il prend une image, détecte ses contours et prend le contrôle de votre souris pour la dessiner automatiquement dans votre logiciel de dessin préféré (Affinity Designer, Paint, Photoshop, etc.).
 
 ## 📋 Prérequis
