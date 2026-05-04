@@ -19,6 +19,11 @@ Projet de génération artistique par robot/IA.
 
 # Robot Artiste 🎨🤖
 
+<!-- adam-badges:start -->
+[![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/RobotArtist?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/RobotArtist/commits) [![visites](https://hits.sh/github.com/Adam-Blf/RobotArtist.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/RobotArtist/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/RobotArtist?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/RobotArtist/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/RobotArtist?style=flat-square)](https://github.com/Adam-Blf/RobotArtist) [![license](https://img.shields.io/github/license/Adam-Blf/RobotArtist?style=flat-square&color=D4A437)](LICENSE)
+<!-- adam-badges:end -->
+
+
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
