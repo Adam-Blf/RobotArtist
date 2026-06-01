@@ -4,7 +4,29 @@
 ![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/RobotArtist?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
 ## 📝 Description
-Projet de génération artistique par robot/IA.
+Robot dessinateur en Python. Le script charge une image, détecte ses contours avec OpenCV (Canny), puis pilote la souris via pyautogui pour reproduire le dessin trait par trait dans un logiciel de dessin.
+
+## Architecture
+
+```mermaid
+flowchart TB
+    IMG["Image source<br/>jpg · png"]
+    PROCESS["process_image()<br/>OpenCV · niveaux de gris · Canny"]
+    CONTOURS["Extraction contours<br/>findContours · simplification"]
+    ZONE["get_draw_zone · is_in_draw_zone<br/>cadrage écran"]
+    DRAW["draw_contours()<br/>pyautogui · moveTo · click"]
+    COLOR["get_color_hex_zone<br/>sélection couleur hex"]
+    SCREEN["Logiciel de dessin<br/>canvas écran cible"]
+    SOUND["winsound<br/>bips de progression"]
+
+    IMG --> PROCESS
+    PROCESS --> CONTOURS
+    CONTOURS --> ZONE
+    ZONE --> DRAW
+    COLOR --> DRAW
+    DRAW --> SCREEN
+    DRAW --> SOUND
+```
 
 ## ⚡ Fonctionnalités
 - Génération d'art
