@@ -10,11 +10,11 @@ Robot dessinateur en Python. Le script charge une image, détecte ses contours a
 
 ```mermaid
 flowchart TB
-    IMG["Image source<br/>jpg · png"]
-    PROCESS["process_image()<br/>OpenCV · niveaux de gris · Canny"]
-    CONTOURS["Extraction contours<br/>findContours · simplification"]
-    ZONE["get_draw_zone · is_in_draw_zone<br/>cadrage écran"]
-    DRAW["draw_contours()<br/>pyautogui · moveTo · click"]
+    IMG["Image source<br/>jpg - png"]
+    PROCESS["process_image()<br/>OpenCV - niveaux de gris - Canny"]
+    CONTOURS["Extraction contours<br/>findContours - simplification"]
+    ZONE["get_draw_zone - is_in_draw_zone<br/>cadrage écran"]
+    DRAW["draw_contours()<br/>pyautogui - moveTo - click"]
     COLOR["get_color_hex_zone<br/>sélection couleur hex"]
     SCREEN["Logiciel de dessin<br/>canvas écran cible"]
     SOUND["winsound<br/>bips de progression"]
@@ -116,7 +116,7 @@ Cela déclenchera la sécurité `FAILSAFE` et arrêtera le script immédiatement
 ---
 
 <p align="center">
-  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> · Data Engineer & Fullstack Developer · <a href="https://github.com/Adam-Blf">GitHub</a> · <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
+  <sub>Par <a href="https://adam.beloucif.com">Adam Beloucif</a> - Data Engineer & Fullstack Developer - <a href="https://github.com/Adam-Blf">GitHub</a> - <a href="https://www.linkedin.com/in/adambeloucif/">LinkedIn</a></sub>
 </p>
 
 
